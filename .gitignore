@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ML / Data Science
+venv/
+mlruns/
+data/
+models/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML / Data Science
+venv/
+mlruns/
+data/
+models/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
