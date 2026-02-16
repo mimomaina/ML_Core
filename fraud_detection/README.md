@@ -1,23 +1,21 @@
-# Credit Card Default Prediction Pipeline
+# Credit Card Default Prediction MLFlow Pipeline
 
 ## Project Overview
 This project establishes a robust end-to-end machine learning pipeline designed to predict credit card default risk. In the financial sector, the ability to accurately assess creditworthiness is paramount for mitigating loss and ensuring portfolio stability. This solution moves beyond simple predictive modelling by integrating comprehensive exploratory data analysis, rigorous feature engineering, and strict MLOps practices using MLflow.
 
-The primary objective is not merely to classify potential defaulters but to construct a reproducible, transparent, and auditable workflow. By leveraging gradient boosting algorithms and optimising classification thresholds, this pipeline addresses the inherent challenges of imbalanced financial data. The integration of MLflow ensures that every experiment, parameter adjustment, and model artefact is tracked, facilitating seamless collaboration and future model iteration.
+The primary objective is not merely to classify potential defaulters but to construct a reproducible, transparent and auditable workflow. By leveraging gradient boosting algorithms and optimising classification thresholds, this pipeline addresses the inherent challenges of imbalanced financial data. The integration of MLflow ensures that every experiment, parameter adjustment and model artefact is tracked, facilitating seamless collaboration and future model iteration.
 
 ## Dataset
-The analysis utilises the Credit Card Clients dataset, comprising demographic information, payment history, and billing statements for credit card holders. The target variable is binary, indicating whether a client defaulted on their payment in the following month.
+The analysis utilises the Credit Card Clients dataset, comprising demographic information, payment history and billing statements for credit card holders. The target variable is binary, indicating whether a client defaulted on their payment in the following month.
 
-- **Source**: [Insert Link to Dataset Here]
+- **Source**: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 - **Records**: 30,000
 - **Features**: 25 initial variables, expanded through engineering.
 
 ## Project Architecture
 The pipeline is architected to ensure modularity and reproducibility. Data flows through distinct stages of preprocessing, analysis, and modelling, with MLflow acting as the central registry for all experimental artefacts.
+<img width="1908" height="990" alt="image" src="https://github.com/user-attachments/assets/9062602d-a0be-4f62-9e7d-7963174adc85" />
 
-```mermaid
-% Note: Please refer to the docs/architecture.png file in the repository for a high-resolution version of the system architecture.
-```
 
 ## Methodology
 
@@ -133,4 +131,5 @@ This project is licensed under the MIT License.
 ```
 
 This version organizes the content into clear sections, adds code block formatting for commands and file paths, and uses tables for the results summary.
+
 
