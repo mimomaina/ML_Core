@@ -1,6 +1,3 @@
-Here's your content formatted using Markdown:
-
-```markdown
 # Credit Card Default Prediction Pipeline
 
 ## Project Overview
@@ -136,3 +133,4 @@ This project is licensed under the MIT License.
 ```
 
 This version organizes the content into clear sections, adds code block formatting for commands and file paths, and uses tables for the results summary.
+
