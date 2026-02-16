@@ -89,8 +89,6 @@ MLflow serves as the cornerstone of this operational framework. It ensures that 
 -A specific experiment named credit-card-default-detection was created to isolate these runs from other workflows.
 
 **Code Implementation:**
-python
-12
 mlflow.set_tracking_uri(f"file:///{MLFLOW_DIR.absolute()}")
 mlflow.set_experiment("credit-card-default-detection")
 
@@ -150,6 +148,7 @@ This project is licensed under the MIT License.
 ```
 
 This version organizes the content into clear sections, adds code block formatting for commands and file paths, and uses tables for the results summary.
+
 
 
 
