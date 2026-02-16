@@ -58,7 +58,7 @@ This algorithm was selected for its ability to handle non-linear relationships a
 - **Impact**: Adjusting the threshold significantly improved the F1-Score to 0.5430. This adjustment prioritises the recall of defaulters, which is critical in risk management where the cost of a false negative (missing a defaulter) exceeds that of a false positive.
 
 ### Hyperparameter Tuning
-To maximise generalisation, we employed `RandomizedSearchCV` on the Gradient Boosting classifier. The search space included learning rate, tree depth, and subsample ratios.
+To maximise generalisation, `RandomizedSearchCV` was employed on the Gradient Boosting classifier. The search space included learning rate, tree depth, and subsample ratios.
 
 - **Tuned Performance**: The optimised model achieved a ROC-AUC of 0.7805.
 - **Significance**: While the numerical increase in ROC-AUC appears marginal, it represents a statistically significant improvement in the model's ability to discriminate between classes across all thresholds. The tuned model demonstrates better calibration and stability on unseen data.
@@ -89,9 +89,10 @@ MLflow serves as the cornerstone of this operational framework. It ensures that 
 -A specific experiment named credit-card-default-detection was created to isolate these runs from other workflows.
 
 **Code Implementation:**
+```python
 mlflow.set_tracking_uri(f"file:///{MLFLOW_DIR.absolute()}")
 mlflow.set_experiment("credit-card-default-detection")
-
+ ```
 **Run Management and Logging**
 
 -Each modelling stage was encapsulated within a mlflow.start_run context manager. This ensures that parameters and metrics are correctly associated with their specific execution instance.
@@ -148,6 +149,7 @@ This project is licensed under the MIT License.
 ```
 
 This version organizes the content into clear sections, adds code block formatting for commands and file paths, and uses tables for the results summary.
+
 
 
 
