@@ -14,7 +14,8 @@ The analysis utilises the Credit Card Clients dataset, comprising demographic in
 
 ## Project Architecture
 The pipeline is architected to ensure modularity and reproducibility. Data flows through distinct stages of preprocessing, analysis, and modelling, with MLflow acting as the central registry for all experimental artefacts.
-<img width="1908" height="990" alt="image" src="https://github.com/user-attachments/assets/9062602d-a0be-4f62-9e7d-7963174adc85" />
+![Uploading image.png…]()
+
 
 
 ## Methodology
@@ -147,6 +148,7 @@ This project demonstrates a sophisticated approach to credit risk modelling. By 
 ## License
 This project is licensed under the MIT License.
 ```
+
 
 
 
